@@ -1,0 +1,33 @@
+/* External CSS */
+.yellow-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ffd700;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid yellow;
+  transition: background-color 0.3s ease;
+}
+
+.yellow-button:hover {
+  background-color: #d99b09; /* Brighter shade of yellow on hover */
+  border-color: #d99b09; /* Brighter border color on hover */
+  color: black;
+}
+/* External CSS */
+.red-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.red-button:hover {
+  background-color: #ff6666; /* Lighter shade of red on hover */
+}
+
